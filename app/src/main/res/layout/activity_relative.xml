@@ -44,6 +44,7 @@
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_alignParentEnd="true"
+        android:onClick="volver"
         android:background="@drawable/close_24">
     </ImageButton>
 </RelativeLayout>

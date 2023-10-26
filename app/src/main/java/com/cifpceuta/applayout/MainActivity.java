@@ -21,4 +21,8 @@ public class MainActivity extends AppCompatActivity {
         Intent i = new Intent(this,ActivityFrame.class);
         startActivity(i);
     }
+    public void relative(View v){
+        Intent i = new Intent(this,ActivityRelative.class);
+        startActivity(i);
+    }
 }
