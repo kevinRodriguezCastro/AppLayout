@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".ActivityLinear">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:layout_width="320dp"
+            android:layout_height="match_parent">
+
+
+            <ImageButton
+                android:id="@+id/ivLogo"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="100dp"
+                android:scaleType="center"
+                android:layout_marginBottom="50dp"
+                android:background="@drawable/cifp_logo"/>
+            <TextView
+                android:textSize="18dp"
+                android:id="@+id/tvNombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nombre">
+
+            </TextView>
+            <EditText
+                android:id="@+id/etNombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="23dp"
+                android:drawablePadding="10dp"
+                android:ems="10"
+                android:drawableStart="@drawable/person_24"
+                android:inputType="text"
+                android:hint="Nombre">
+
+            </EditText>
+            <TextView
+                android:textSize="18dp"
+                android:id="@+id/tvCorreo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Correo">
+
+            </TextView>
+            <EditText
+                android:id="@+id/etCorreo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:drawablePadding="10dp"
+                android:textSize="23dp"
+                android:drawableStart="@drawable/email_24"
+                android:inputType="text"
+                android:hint="Correo">
+
+            </EditText>
+            <TextView
+                android:textSize="18dp"
+                android:id="@+id/tvContraseña"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Contraseña">
+
+            </TextView>
+            <EditText
+                android:id="@+id/etContraseña"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:drawablePadding="10dp"
+                android:textSize="23dp"
+                android:drawableStart="@drawable/lock_24"
+                android:inputType="textPassword"
+                android:hint="Password">
+
+            </EditText>
+
+            <Button
+                android:id="@+id/btnRegistrar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="19dp"
+                android:text="Registrar" />
+
+            <Button
+                android:id="@+id/btnVolver"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="volver"
+                android:text="Volver" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
