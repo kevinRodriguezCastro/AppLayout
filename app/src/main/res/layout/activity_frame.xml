@@ -29,6 +29,7 @@
         android:contentDescription="Icono play">
 
     </ImageButton>
+
     <ImageButton
         android:id="@+id/btn_Pause"
         android:layout_width="70dp"
@@ -38,8 +39,8 @@
         android:background="@drawable/pause_24"
 
         android:contentDescription="Icono play">
-
     </ImageButton>
+
     <ImageButton
         android:id="@+id/btn_frame_volver"
         android:layout_width="60dp"

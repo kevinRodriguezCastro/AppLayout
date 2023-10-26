@@ -14,7 +14,7 @@ public class ActivityLinear extends AppCompatActivity {
         setContentView(R.layout.activity_linear);
     }
    public void volver(View v){
-        Intent i = new Intent(this, ActivityRelative.class);
+        Intent i = new Intent(this, MainActivity.class);
         startActivity(i);
    }
 }

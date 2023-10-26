@@ -71,7 +71,7 @@ public class ActivityFrame extends AppCompatActivity {
         }
     }
     private void volver(View v){
-        Intent i = new Intent(this, ActivityRelative.class);
+        Intent i = new Intent(this, MainActivity.class);
         startActivity(i);
     }
 
