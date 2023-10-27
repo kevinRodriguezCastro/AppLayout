@@ -23,7 +23,7 @@ public class ActivityRelative extends AppCompatActivity {
         lista.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Toast.makeText(view.getContext(),lista.getAdapter().getItem(position).toString(),Toast.LENGTH_LONG).show();
+                Toast.makeText(view.getContext(),lista.getAdapter().getItem(position).toString(),Toast.LENGTH_SHORT).show();
             }
         });
     }

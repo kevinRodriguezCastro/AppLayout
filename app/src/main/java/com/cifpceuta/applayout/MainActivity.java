@@ -25,4 +25,8 @@ public class MainActivity extends AppCompatActivity {
         Intent i = new Intent(this,ActivityRelative.class);
         startActivity(i);
     }
+    public void table(View v){
+        Intent i = new Intent(this,ActivityTable.class);
+        startActivity(i);
+    }
 }

@@ -46,31 +46,42 @@
                 android:onClick="frame"
                 android:text="FrameLayout" />
 
-    <Button
-        android:layout_gravity="center"
-        android:id="@+id/button3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="relative"
-        android:text="RelativeLayout" />
-    <Button
-        android:layout_gravity="center"
-        android:id="@+id/button4"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="TableLayout" />
-    <Button
-        android:layout_gravity="center"
-        android:id="@+id/button5"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="GrindLayout" />
-    <Button
-        android:layout_gravity="center"
-        android:id="@+id/button6"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="ConstraintLayout" />
+            <Button
+                android:layout_gravity="center"
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="relative"
+                android:text="RelativeLayout" />
+
+            <Button
+                android:layout_gravity="center"
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="table"
+                android:text="TableLayout" />
+
+            <Button
+                android:layout_gravity="center"
+                android:id="@+id/button5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="GrindLayout" />
+
+            <Button
+                android:layout_gravity="center"
+                android:id="@+id/button9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="AbsoluteLayout" />
+
+            <Button
+                android:layout_gravity="center"
+                android:id="@+id/button6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ConstraintLayout" />
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>
