@@ -29,7 +29,17 @@
         <ImageView
             android:layout_height="80dp"
             android:layout_width="80dp"
-            android:background="@drawable/avatar1_chico">
+            android:background="@drawable/avatar2_chica">
+        </ImageView>
+        <ImageView
+            android:layout_height="80dp"
+            android:layout_width="80dp"
+            android:background="@drawable/avatar3_chico">
+        </ImageView>
+        <ImageView
+            android:layout_height="80dp"
+            android:layout_width="80dp"
+            android:background="@drawable/avatar4_chica">
         </ImageView>
         <ImageView
             android:layout_height="80dp"
@@ -39,7 +49,17 @@
         <ImageView
             android:layout_height="80dp"
             android:layout_width="80dp"
-            android:background="@drawable/avatar1_chico">
+            android:background="@drawable/avatar2_chica">
+        </ImageView>
+        <ImageView
+            android:layout_height="80dp"
+            android:layout_width="80dp"
+            android:background="@drawable/avatar3_chico">
+        </ImageView>
+        <ImageView
+            android:layout_height="80dp"
+            android:layout_width="80dp"
+            android:background="@drawable/avatar4_chica">
         </ImageView>
         <ImageView
             android:layout_height="80dp"
@@ -49,7 +69,17 @@
         <ImageView
             android:layout_height="80dp"
             android:layout_width="80dp"
-            android:background="@drawable/avatar1_chico">
+            android:background="@drawable/avatar2_chica">
+        </ImageView>
+        <ImageView
+            android:layout_height="80dp"
+            android:layout_width="80dp"
+            android:background="@drawable/avatar3_chico">
+        </ImageView>
+        <ImageView
+            android:layout_height="80dp"
+            android:layout_width="80dp"
+            android:background="@drawable/avatar4_chica">
         </ImageView>
         <ImageView
             android:layout_height="80dp"
@@ -59,50 +89,21 @@
         <ImageView
             android:layout_height="80dp"
             android:layout_width="80dp"
-            android:background="@drawable/avatar1_chico">
+            android:background="@drawable/avatar2_chica">
         </ImageView>
         <ImageView
             android:layout_height="80dp"
             android:layout_width="80dp"
-            android:background="@drawable/avatar1_chico">
+            android:background="@drawable/avatar3_chico">
         </ImageView>
         <ImageView
             android:layout_height="80dp"
             android:layout_width="80dp"
-            android:background="@drawable/avatar1_chico">
-        </ImageView>
-        <ImageView
-            android:layout_height="80dp"
-            android:layout_width="80dp"
-            android:background="@drawable/avatar1_chico">
-        </ImageView>
-        <ImageView
-            android:layout_height="80dp"
-            android:layout_width="80dp"
-            android:background="@drawable/avatar1_chico">
-        </ImageView>
-        <ImageView
-            android:layout_height="80dp"
-            android:layout_width="80dp"
-            android:background="@drawable/avatar1_chico">
-        </ImageView>
-        <ImageView
-            android:layout_height="80dp"
-            android:layout_width="80dp"
-            android:background="@drawable/avatar1_chico">
-        </ImageView>
-        <ImageView
-            android:layout_height="80dp"
-            android:layout_width="80dp"
-            android:background="@drawable/avatar1_chico">
-        </ImageView>
-        <ImageView
-            android:layout_height="80dp"
-            android:layout_width="80dp"
-            android:background="@drawable/avatar1_chico">
+            android:background="@drawable/avatar4_chica">
         </ImageView>
     </GridLayout>
     <Button
+        android:id="@+id/btn_grid_volver"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"

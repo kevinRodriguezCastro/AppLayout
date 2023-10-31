@@ -63,10 +63,11 @@
                 android:text="TableLayout" />
 
             <Button
-                android:layout_gravity="center"
                 android:id="@+id/button5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:onClick="grid"
                 android:text="GrindLayout" />
 
             <Button
